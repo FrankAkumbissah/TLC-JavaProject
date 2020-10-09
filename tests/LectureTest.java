@@ -18,8 +18,8 @@ public class LectureTest {
         Student student1 = new Student(student1Grades);
 
         List<Double> student2Grades = new ArrayList<>();
-        student1Grades.add(80.0);
-        student1Grades.add(70.0);
+        student2Grades.add(80.0);
+        student2Grades.add(70.0);
 
         Student student2 = new Student(student2Grades);
 

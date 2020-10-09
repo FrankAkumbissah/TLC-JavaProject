@@ -10,7 +10,7 @@ public class Lecture {
 
      public double getHighestAverageGrade(){
          double highestGrade = 0.0;
-         for(Student std: this.allStudents){
+         for(Student std: allStudents){
              double currentGrade = std.getAverageGrade();
              if(currentGrade > highestGrade){
                  highestGrade = currentGrade;

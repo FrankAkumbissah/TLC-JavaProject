@@ -9,12 +9,14 @@ public class StudentTest {
 
     @Test
     public void getAverageGrade() {
-        List<Double> studentgrade = new ArrayList<>();
-        studentgrade.add(20.0);
-        studentgrade.add(50.0);
+        List<Double> studentGrade = new ArrayList<>();
+        studentGrade.add(20.0);
+        studentGrade.add(50.0);
 
-        Student student1 = new Student(studentgrade);
+        Student student1 = new Student(studentGrade);
+        student1.setName("OhenebaAduhene");
 
         assertEquals("Failed", 35.0, student1.getAverageGrade(), 0.0);
+        assertEquals("OhenebaAduhene", student1.getName());
     }
 }
